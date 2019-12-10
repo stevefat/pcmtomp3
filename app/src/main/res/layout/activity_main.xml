@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/record_result"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:text="准备中"
+        />
+
+
+
+<Button
+    android:id="@+id/start_record"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="开始录音"/>
+
+
+    <Button
+        android:id="@+id/stop_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止录音"/>
+
+
+    <Button
+        android:id="@+id/play_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放录音"/>
+
+
+    <Button
+        android:id="@+id/stop_play_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止播放"/>
+
+    <Button
+        android:id="@+id/del_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除录音"/>
+
+    <Button
+        android:id="@+id/upload_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上传"/>
+
+</LinearLayout>
